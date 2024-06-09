@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun 2024, 11:24:48
+    Author     : USUARIO
+*/
+
+/* Table Styles */
+.anime-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+}
+
+.anime-table thead tr {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+}
+
+.anime-table th, .anime-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.anime-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.anime-table tbody tr:hover {
+    background-color: #f1f1f1;
+}

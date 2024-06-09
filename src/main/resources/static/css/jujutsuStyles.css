@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 jun 2024, 10:55:14
+    Author     : USUARIO
+*/
+
+.jujutsu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.jujutsu aside {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+
+.jujutsu aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.jujutsu article {
+    flex: 2;
+    padding: 20px;
+}
+
+.jujutsu article h2 {
+    color: #333;
+}
+
+.jujutsu article p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+}
